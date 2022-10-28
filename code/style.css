@@ -1,0 +1,167 @@
+* {
+    margin: 0%;
+    padding: .5vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    height: 12vh;
+    width: 100%;
+}
+
+.ancors {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+}
+
+.ancors2 {
+    display: block;
+}
+
+.ancors a {
+    text-decoration: none;
+    color: black;
+}
+
+.ancors2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.main {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 70vh;
+}
+
+.firstText {
+    padding-top: 20px;
+}
+
+.firstImg img {
+    height: 60vh;
+}
+
+.firstImg {
+    padding-top: 20px;
+}
+
+.firstText span {
+    color: rgba(0, 0, 255, 0.601);
+}
+
+.firstText h1 {
+    font-size: 40px;
+}
+
+.firstText p {
+    color: gray;
+}
+
+.firstText button {
+    background-color: rgba(0, 0, 255, 0.675);
+    color: white;
+    border: rgba(0, 0, 255, 0.527);
+    border-radius: 8px;
+    width: 170px;
+    height: 50px;
+    font-size: 18px;
+}
+
+.firstText button:hover {
+    background-color: blue;
+    font-size: larger;
+}
+
+.headi {
+    display: flex;
+    justify-content: center;
+}
+
+.para {
+    display: flex;
+    justify-content: center;
+}
+
+.threeBoxs,
+.twoBoxs {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.boxs {
+    background-color: rgba(128, 128, 128, 0.134);
+    color: black;
+    height: 50vh;
+    width: 20%;
+    padding: 2%;
+    border-radius: 20px;
+}
+
+.boxs2 {
+    color: white;
+    height: 30vh;
+    width: 20%;
+    padding: 2%;
+    border-radius: 20px;
+}
+
+.boxs a {
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+}
+
+.boxs a:hover {
+    font-size: larger;
+}
+
+.boxs i {
+    font-size: 30px;
+    color: white;
+    background-color: brown;
+}
+
+.text {
+    width: 50%;
+    margin: auto;
+}
+
+.news {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.para2 {
+    display: flex;
+    justify-content: center;
+}
+
+.ancor a {
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 0, 255, 0.657);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.ancor {
+    display: flex;
+    justify-content: center;
+}
+
+.all {
+    background-color: rgba(128, 128, 128, 0.1);
+}
+
+footer {
+    height: 45vh;
+    width: 100%;
+    background-color: rgba(0, 0, 255, 0.537);
+}
